@@ -1,4 +1,7 @@
 @charset "utf-8";
+@-ms-viewport {
+	width: device-width;
+}
 /* CSS Document */
 
 body,td,th,p{
@@ -6,6 +9,7 @@ body,td,th,p{
 	font-size: 10pt;
 	color: #333;
 	line-height: 1.5;
+
 }
 body {
 	background-color: #fdfdfd;
