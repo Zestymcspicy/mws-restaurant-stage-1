@@ -187,7 +187,7 @@ nav h1 a {
   margin: 0;
   font-size: 11pt;
 }
-#restaurants-list li a {
+#restaurants-list li button {
   background-color: orange;
   border-bottom: 3px solid #eee;
   color: #fff;
@@ -246,7 +246,7 @@ nav h1 a {
   font-size: 12pt;
   margin: 10px 0px;
 }
-#restaurant-cuisine {
+#restaurant-cuisine, thead {
   background-color: #333;
   color: #ddd;
   font-size: 12pt;
@@ -296,12 +296,15 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
 }
-#restaurant-hours table {
-	display: block;
+#restaurant-hours {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
 }
 #restaurant-hours tr {
+	display: block;
 }
 #restaurant-hours td {
   color: #666;
