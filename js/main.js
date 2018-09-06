@@ -177,8 +177,8 @@ createRestaurantHTML = (restaurant) => {
 
   const more = document.createElement('button');
   more.innerHTML = 'View Details';
-  more.tabindex = '-2';
-  more[aria-label]= `${restaurant.name}`;
+  more.setAttribute("tabindex", "3");
+  more.setAttribute("aria-label", `${restaurant.name} details`);
   more.onclick = function() {
     const url = DBHelper.urlForRestaurant(restaurant);
     window.location = url;
