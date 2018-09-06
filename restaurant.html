@@ -21,7 +21,7 @@
     </nav>
     <!-- Beginning breadcrumb -->
     <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
+      <li tabindex="1"><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
@@ -32,17 +32,17 @@
   <main id="maincontent">
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 id="restaurant-name"></h1>
+      <h1 tabindex="2" id="restaurant-name"></h1>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
+      <p tabindex="3" id="restaurant-address"></p>
       <!-- Beginning map -->
       <section id="map-container">
         <div id="map"></div>
       </section>
       <!-- End map -->
-      <p id="hours-header">Restaurant Hours</p>
-      <table id="restaurant-hours"></table>
+      <h2 id="hours-header">Restaurant Hours</h2>
+      <table tabindex="4" id="restaurant-hours"></table>
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
