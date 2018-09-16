@@ -23,7 +23,6 @@ const cacheFiles = [
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(cacheID).then(function(cache) {
-      console.log("hello");
       return cache.addAll(cacheFiles);
     })
   )
